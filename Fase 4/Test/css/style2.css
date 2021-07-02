@@ -1,0 +1,78 @@
+
+* {
+    font-family: "system-ui", sans-serif;
+  }
+
+body {
+  background: white;
+}
+
+.navbar{ 
+  background: #83D9D9; 
+  background: -webkit-linear-gradient(right, #6fd3d3, #a9d8d8);
+  background: -moz-linear-gradient(right, #83D9D9, #a9d8d8);
+  background: -o-linear-gradient(right, #83D9D9, #a9d8d8);
+  background: linear-gradient(to left, #83D9D9, #a9d8d8);
+}
+
+#logo-nav {
+    width: 50px;
+    height: 50px;
+}
+
+#target-ico {
+    width: 30px;
+    height: 30px;
+}
+
+main {
+    background:whitesmoke;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 95%;
+    height: 500px;
+    padding-top: 2%;
+}
+
+.tabela-peso {
+    width: 30%;
+    background: rgb(188, 219, 214);
+    border-radius:10%;
+    border-collapse:separate;
+    border:solid rgb(7, 109, 112) 2px;
+    border-radius:10px;
+    -moz-border-radius:6px;
+    margin-left: 5%;
+    float:left;
+}
+
+table {
+    border-radius:6px;
+    border-collapse:separate;
+    border:solid black 1px;
+    border-radius:10px;
+    -moz-border-radius:6px;
+}
+
+#dash {
+    width: 70px;
+    height: 70px;
+}
+
+h1 {
+    margin-left: 1%;
+}
+
+h3 {
+    margin-left: 5%;
+    position: relative;
+}
+
+#speedometer {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    float: right;
+    margin-right: 30%;
+    
+}
